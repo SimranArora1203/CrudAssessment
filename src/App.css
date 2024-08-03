@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(175, 238, 238);
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.btn {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+.addBtn {
+  width: 39%;
+  height: 35px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.btn:hover {
+  background-color: rgba(255, 86, 34, 0.397);
+  color: black;
+}
+.addBtn:hover {
+  background-color: rgba(255, 86, 34, 0.397);
+  color: black;
+}
+.link:hover {
+  color: black;
+}
